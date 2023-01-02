@@ -1,0 +1,41 @@
+.container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-container {
+  display: flex;
+  padding: 5px;
+  font-family: Roboto;
+}
+.time {
+  color: #64748b;
+  padding: 10px;
+  font-weight: 600;
+  padding-right: 40px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  margin-top: 22px;
+}
+.list-heading {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+}
+.domain-url {
+  color: #64748b;
+  padding: 8px;
+}
+.delete {
+  text-align: right;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  margin: 20px;
+}
