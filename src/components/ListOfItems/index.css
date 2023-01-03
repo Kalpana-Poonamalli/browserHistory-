@@ -29,13 +29,17 @@
 }
 .domain-url {
   color: #64748b;
-  padding: 8px;
+  padding: 12px;
 }
 .delete {
   text-align: right;
   height: 40px;
   width: 40px;
   padding: 10px;
+  background-color: transparent;
   margin-top: 10px;
   margin: 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
 }

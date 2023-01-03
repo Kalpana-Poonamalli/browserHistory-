@@ -11,17 +11,17 @@ const ListOfItems = props => {
     <li className="container">
       <div className="list-container">
         <p className="time">{timeAccessed}</p>
-        <img src={logoUrl} alt={title} className="icon" />
-        <h1 className="list-heading">{title}</h1>
+        <img src={logoUrl} alt="domain logo" className="icon" />
+        <p className="list-heading">{title}</p>
         <p className="domain-url">{domainUrl}</p>
       </div>
-
-      <img
-        src="https://assets.ccbp.in/frontend/react-js/delete-img.png "
-        alt="delete"
-        className="delete"
-        onClick={onDelete}
-      />
+      <button className="delete" type="button" data-testid="delete">
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/delete-img.png "
+          alt="delete"
+          onClick={onDelete}
+        />
+      </button>
     </li>
   )
 }
