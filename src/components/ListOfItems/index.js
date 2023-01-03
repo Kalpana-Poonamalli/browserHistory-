@@ -15,7 +15,7 @@ const ListOfItems = props => {
         <p className="list-heading">{title}</p>
         <p className="domain-url">{domainUrl}</p>
       </div>
-      <button className="delete" type="button" data-testid="delete">
+      <button className="delete" type="button">
         <img
           src="https://assets.ccbp.in/frontend/react-js/delete-img.png "
           alt="delete"

@@ -130,8 +130,8 @@ class Home extends Component {
         {filteredList.length === 0 || searchItem.length === 0 ? (
           <p className="no-history-para">There is no history to show</p>
         ) : (
-          <div className="inner-container">
-            <ul>
+          <ul className="inner-container">
+            <li className="ordered-list">
               {filteredList.map(eachItem => (
                 <ListOfItems
                   eachItem={eachItem}
@@ -139,8 +139,8 @@ class Home extends Component {
                   deleteItem={this.deleteItem}
                 />
               ))}
-            </ul>
-          </div>
+            </li>
+          </ul>
         )}
       </div>
     )

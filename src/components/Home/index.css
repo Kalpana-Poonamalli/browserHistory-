@@ -49,3 +49,6 @@
   text-align: center;
   font-weight: 600;
 }
+.ordered-list {
+  list-style-type: none;
+}
